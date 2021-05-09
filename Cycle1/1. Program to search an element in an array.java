@@ -5,7 +5,7 @@ class Set
 	Scanner sc=new Scanner(System.in);
 	void read(int [] ar)
 	{
-		System.out.print("\nEnter the element for array:");	
+		System.out.print("\nEnter the elements for array:");	
 		for(i=0;i<=ar.length-1;i++)
 		{
 			ar[i]=sc.nextInt();
@@ -55,7 +55,7 @@ class Array
 	Set s1=new Set();
 	Scanner sc=new Scanner(System.in);
 	System.out.print("\nEnter the size of array:");
-    size=sc.nextInt();
+        size=sc.nextInt();
 	int ar[]=new int[size];
 	do
 	{
