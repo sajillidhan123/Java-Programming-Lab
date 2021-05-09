@@ -71,7 +71,7 @@ class Array
 		case 3:System.exit(0);
 		break;
 		default:System.out.println("Invalid Choice");
-	}
+		}
 	}
 	while(choice!=4);
 	}	
