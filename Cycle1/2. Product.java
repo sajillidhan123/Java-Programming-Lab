@@ -28,15 +28,9 @@ p2.read();
 p3.read();
 
 System.out.println("Products are\n");
-System.out.print(p1.pcode);
-System.out.print(" "+p1.pname);
-System.out.println(" "+p1.price);
-System.out.print(p2.pcode);
-System.out.print(" "+p2.pname);
-System.out.println(" "+p2.price);
-System.out.print(p3.pcode);
-System.out.print(" "+p3.pname);
-System.out.println(" "+p3.price+"\n");
+System.out.println(p1.pcode+" "+p1.pname+" "+p1.price);
+System.out.println(p2.pcode+" "+p2.pname+" "+p2.price);
+System.out.print(p3.pcode+" "+p3.pname+" "+p3.price+"\n");
 
 
 if(p1.price<p2.price && p1.price<p3.price)
