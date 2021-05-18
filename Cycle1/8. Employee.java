@@ -45,3 +45,23 @@ class Employee {
     }
 }
 			
+
+
+Output:
+
+Enter the no of employees to be entered: 4
+Enter Employee No: 1
+Enter Employee Name: Alex
+Enter Employee Salary: 20000
+Enter Employee No: 2
+Enter Employee Name: Rahul
+Enter Employee Salary: 40000
+Enter Employee No: 3
+Enter Employee Name: Anil
+Enter Employee Salary: 10000
+Enter Employee No: 4
+Enter Employee Name: Adam
+Enter Employee Salary: 15000
+	
+Enter the employee no to find employee details: 3
+Employee No Name and Salary is: 3 Anil 10000
