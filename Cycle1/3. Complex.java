@@ -34,3 +34,15 @@ c1.add(c2);
 
 }
 }
+
+
+Output:
+
+Enter the real number: 5
+Enter the imaginary number: 3
+Enter the real number: 10
+Enter the imaginary number: 8
+  
+Numbers are:5+3i and 10+8i
+
+Sum is:15+11i
