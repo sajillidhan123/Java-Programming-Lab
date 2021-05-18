@@ -48,3 +48,27 @@ else
 }
 }
 }
+
+
+
+
+
+Output:
+
+Enter the product number: 1
+Enter the product name: Book
+Enter the product price: 30
+Enter the product number: 2
+Enter the product name: Soap
+Enter the product price: 20
+Enter the product number: 3
+Enter the product name: Pen
+Enter the product price: 25
+	
+Products are
+1 Book 30.0
+2 Soap 20.0
+3 Pen 25.0
+
+Lowest price product is:Soap
+
