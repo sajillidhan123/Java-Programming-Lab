@@ -76,3 +76,42 @@ class Array
 	while(choice!=4);
 	}	
 }
+
+
+
+Output:
+
+Enter the size of array:3
+
+Menu
+1.Insert
+2.Search
+3.Exit
+
+Enter your choice:1
+
+Enter the element for array:10
+32
+40
+
+Elements are 10 32 40
+
+Menu
+1.Insert
+2.Search
+3.Exit
+
+Enter your choice:2
+Enter the element to search: 32
+Element 32 found at position:2
+
+
+Menu
+1.Insert
+2.Search
+3.Exit
+
+Enter your choice:2
+Enter the element to search: 2
+Element not found
+
