@@ -185,7 +185,7 @@ Rahul   Male    23      Alappuzha       Infosys MCA     60000.0 100     Maths   
 
 Details are
 
-Smitha  Female  25      Calicut Hp      BCA     40000.0 101     Physics Theory
+Smitha  Female  25      Calicut           Hp      BCA     40000.0 101     Physics Theory
 
 Details are
 
