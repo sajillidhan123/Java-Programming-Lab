@@ -15,13 +15,13 @@ class File {
 			fw.write("Java was developed by Sun Microsystems.\n");
 			fw.write("James Gosling is known as the father of Java.");
 			System.out.println("\nFile write done\n");
-		    fw.close();
+		        fw.close();
 			FileReader fr = new FileReader("file.txt");
 			String str = "";
-  
-            int i;
-			while ((i = fr.read()) != -1) {
-                str += (char)i;
+                        int i;
+			while ((i = fr.read()) != -1)
+	    {
+                      str += (char)i;
             }
             System.out.println(str);
 			System.out.println("\nFile read done");
