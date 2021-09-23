@@ -6,8 +6,8 @@ public class ReadFile {
      int i=0;
 
      FileInputStream fin = new FileInputStream("File.txt");
-     FileOutputStream fodd = new FileOutputStream("Even.txt");
-     FileOutputStream feven = new FileOutputStream("Odd.txt");
+     FileOutputStream feven = new FileOutputStream("Even.txt");
+     FileOutputStream fodd = new FileOutputStream("Odd.txt");
     
      while((i=fin.read())!=-1) 
      {
