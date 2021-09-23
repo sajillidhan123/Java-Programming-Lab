@@ -1,28 +1,48 @@
 import java.io.*;
 import java.util.*;
 
-public class ReadFile {
-  public static void main(String[] args) throws Exception {
-     int i=0;
 
-     FileInputStream fin = new FileInputStream("File.txt");
-     FileOutputStream feven = new FileOutputStream("Even.txt");
-     FileOutputStream fodd = new FileOutputStream("Odd.txt");
+class File 
+{
+  String fname;
+
+  void read()
+  {
+    Scanner sc=new Scanner(System.in);
+      System.out.println("Enter the filename");
+      fname=sc.next(); 
+  }
+  
+  void check() throws Exception
+  {
     
-     while((i=fin.read())!=-1) 
+    FileInputStream file = new FileInputStream(fname);
+    FileOutputStream evenFile = new FileOutputStream("EvenFile.txt");
+    FileOutputStream oddFile = new FileOutputStream("OddFile.txt");
+
+    int i=0;
+    while((i=file.read())!=-1) 
      {
       if(i%2==0)
       {
-      feven.write(i);
+      evenFile.write(i);
      }
       else
-      fodd.write(i);
+      oddFile.write(i);
      }
-    
-     fin.close();
-     feven.close();
-     fodd.close();
+      file.close();
+     evenFile.close();
+     oddFile.close();
+  }
 
+}
+ class Main 
+{
+  public static void main(String[] args) throws Exception
+  { 
+      File f=new File();
+      f.read();
+      f.check();
       }
 
     } 
